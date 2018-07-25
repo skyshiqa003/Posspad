@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="https://passpod.com/id/wifi-rental" />
+<title>Passpod_wifirental</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Passpod_wifirental</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/id/wifi-rental</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>Wifi Rental - Passpod</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=country</td>
+	<td>label=Wifi South East Asia 1 GB/day</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=qty</td>
+	<td>label=2</td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=div.react-datepicker__input-container &gt; input.form-control</td>
+	<td>07/28/2018</td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=div.form-group.end-date-picker &gt; div &gt; div.react-datepicker-wrapper &gt; div.react-datepicker__input-container &gt; input.form-control</td>
+	<td>07/29/2018</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>xpath=(//select[@id='country'])[2]</td>
+	<td>label=BCA</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=acnNumber</td>
+	<td>2348 9231 </td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=self</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=selfTwo</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.payment-wrap &gt; button.btn.btn-orange</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>
